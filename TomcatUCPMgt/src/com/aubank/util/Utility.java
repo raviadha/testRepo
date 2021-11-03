@@ -30,7 +30,7 @@ public class Utility {
 		final String sQuery = "select 1 from appmonitor";
         
         Statement stmt = null;
-        //String state=null;
+        String results="";
         int count = 0;
         try {
             stmt = conn.createStatement();
